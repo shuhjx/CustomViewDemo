@@ -3,13 +3,14 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
+//apply plugin: 'com.antfortune.freeline'
 
 android {
     compileSdkVersion 26
-    buildToolsVersion "26.0.0-rc2"
+    buildToolsVersion "26.0.0"
     defaultConfig {
         applicationId "com.shuh.customviewdemos"
-        minSdkVersion 14
+        minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"

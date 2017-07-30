@@ -21,7 +21,7 @@ class Practice10HistogramView : View {
     private var width = 550f
     private var height = 350f
     private val margin = 50f
-    private val datas = hashMapOf("Froyo" to 0f, "GB" to 20f, "ICS" to 20f, "JB" to 180f, "KitKat" to 260f, "L" to 300f, "M" to 150f)
+    private val datas = linkedMapOf("Froyo" to 0f, "GB" to 20f, "ICS" to 20f, "JB" to 180f, "KitKat" to 260f, "L" to 300f, "M" to 150f)
     private val padding = 10
     private val w = width/datas.size-2*padding
     private var whitePaint = Paint(Paint.ANTI_ALIAS_FLAG)
